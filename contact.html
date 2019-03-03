@@ -104,9 +104,7 @@
 					<br><br>
 				</div>
 			</div>
-			<div class="contact-img">
-				<img src="img/contact-img.jpg" alt="">
-			</div>
+			
 		</div>
 	</section>
 	<!-- Contact section end -->
@@ -124,16 +122,16 @@
 								<h2 style="font-family: 'Chango', cursive;">Contact us</h2>
 							</div>
 							<!-- contact form -->
-							<form class="contact-form">
+							<form class="contact-form"  method="post" action="email.php">
 								<div class="row">
 									<div class="col-md-6">
-										<input type="text" placeholder="Name">
+										<input type="text" placeholder="Name" name="name">
 									</div>
 									<div class="col-md-6">
-										<input type="email" placeholder="E-mail">
+										<input type="email" placeholder="E-mail" name="email">
 									</div>
 									<div class="col-md-12">
-										<textarea placeholder="Message"></textarea>
+										<input type="textarea" placeholder="Message" name="message"></input>
 										<div class="text-center">
 											<button class="site-btn" style="font-family: 'Chango', cursive;">Send Message</button>
 										</div>
